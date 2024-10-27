@@ -1,3 +1,4 @@
+// Her bliver diverse data om de forskellige bots hentet
 export default chatFaceData=[
     {
         id:1,

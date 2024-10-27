@@ -1,8 +1,9 @@
+// Bliver ikke anvendt
 import { createStackNavigator } from '@react-navigation/stack';
 import React from 'react';
 import ChatScreen from '../screens/ChatScreen';
 import AIScreen from "../screens/AIScreen";
-
+// Håndterer navigation mellem AIScreen og ChatScreen
 const Stack = createStackNavigator();
 
 export default function HomeNavigation() {

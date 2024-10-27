@@ -1,3 +1,4 @@
+// Her bliver der kontaktet OpenAI's API.
 import OpenAI from "openai/index.mjs";
 
 // Create a new instance of the OpenAI class

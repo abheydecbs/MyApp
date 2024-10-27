@@ -2,11 +2,13 @@ import React from 'react';
 import { View, StyleSheet } from 'react-native';
 import MapView from 'react-native-maps';
 
+// MapScreen-komponent, der viser et kort
 const MapScreen = () => {
     return (
         <View style={styles.container}>
             <MapView
                 style={styles.map}
+                // Angiver den oprindelige region, kortet skal centreres på ved første visning
                 initialRegion={{
                     latitude: 37.78825,
                     longitude: -122.4324,

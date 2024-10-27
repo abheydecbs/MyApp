@@ -1,21 +1,21 @@
 import React from 'react';
 import { View, Text, StyleSheet, Button } from 'react-native';
-
+// SettingsScreen viser 3 forskellige Buttons
 export default function SettingsScreen({ navigation }) {
     return (
         <View style={styles.container}>
             <Text style={styles.title}>Settings Screen</Text>
             <Button
                 title="Change Profile"
-                onPress={() => navigation.navigate('Profile')}
+                onPress={() => navigation.navigate('Profile')}  // Fører dig hen til ProfileScreen
             />
             <Button
                 title="Notifications"
-                onPress={() => alert('Notifications settings')}
+                onPress={() => alert('Notifications settings')} // Giver dig en pop-up notification
             />
             <Button
                 title="Theme"
-                onPress={() => alert('Theme settings')}
+                onPress={() => alert('Theme settings')} // Giver dig en pop-up notification
             />
         </View>
     );

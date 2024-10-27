@@ -23,7 +23,7 @@ function AINavigation() {
         </Stack.Navigator>
     );
 }
-
+// Hvordan ikoner ser ud
 export default function App() {
     return (
         <NavigationContainer>
@@ -44,6 +44,7 @@ export default function App() {
                         }
                         return <Icon name={iconName} size={size} color={color} />;
                     },
+                    // Hvordan baren ser ud
                     tabBarActiveTintColor: 'tomato',
                     tabBarInactiveTintColor: 'gray',
                 })}
@@ -54,6 +55,6 @@ export default function App() {
                 <Tab.Screen name="Map" component={MapScreen} />
                 <Tab.Screen name="AINavigation" component={AINavigation} options={{ headerShown: false }} />
             </Tab.Navigator>
-        </NavigationContainer>
+        </NavigationContainer> // Hvilken rækkefølge ikonerne bliver vist
     );
 }
