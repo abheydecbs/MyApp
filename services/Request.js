@@ -2,7 +2,7 @@
 import OpenAI from "openai/index.mjs";
 
 // Create a new instance of the OpenAI class
-const openai = new OpenAI({apiKey: "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"});
+const openai = new OpenAI({apiKey: "YOUR-API-KEY"});
 
 // Create a function that sends a message to the OpenAI API
 export default async function SendMessage(messageArray) {
